@@ -32,5 +32,10 @@ note: you can add all files by using * in the file path argument
 
 `git reset HEAD <file path>` Removes from the staging area
 
-`git commit -m <Discription>` Adds to the local Repo
+`git commit -m <>` Adds to the local Repo
 
+`git push <remote-name> <branch-name>` Adds to the Remote Repo
+
+`git branch` 
+
+`git remote -v`

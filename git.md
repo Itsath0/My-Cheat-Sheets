@@ -21,21 +21,109 @@
 - **Pull Request (PR)**: A request to merge changes (GitHub feature).
 - **Fork**: A personal copy of someone else’s repository.
 
-### Commands
+## Commands
 
-`git clone <url for your repo>` Clones A Repo (Remote/Local) to your filesystem
+### Setup
 
-`git status` ??
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --list
+```
 
-`git add <file path>` Adds to the staging area 
-note: you can add all files by using * in the file path argument
+---
 
-`git reset HEAD <file path>` Removes from the staging area
+### Starting a Repository
 
-`git commit -m <>` Adds to the local Repo
+```bash
+git init                 # Initialize new repo
+git clone <repo-url>     # Clone existing repo
+```
 
-`git push <remote-name> <branch-name>` Adds to the Remote Repo
+### Basic Workflow
 
-`git branch` 
+```bash
+git status               # Check status
+git add <file>           # Stage file
+git add .                # Stage all changes
+git commit -m "message"  # Commit
+git log
+```
 
-`git remote -v`
+### Branching
+
+```bash
+git branch
+git branch <name>
+git checkout <name>
+git checkout -b <name>
+git switch <name>
+git merge <branch>
+git branch -d <name>
+```
+
+---
+
+### Remote Repositories
+
+```bash
+git remote -v
+git remote add origin <url>
+git push -u origin main
+git pull
+git fetch
+```
+
+---
+
+### Undoing Changes
+
+```bash
+git restore <file>
+git restore --staged <file>
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+git revert <commit-hash>
+```
+
+---
+
+### Stashing
+
+```bash
+git stash
+git stash list
+git stash pop
+git stash apply
+```
+
+---
+
+### Inspecting Changes
+
+```bash
+git diff
+git diff --staged
+git show <commit-hash>
+```
+
+---
+
+### Tags
+
+```bash
+git tag
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+---
+
+### Helpful Pro Tips
+
+```bash
+git log --oneline --graph --all
+git commit --amend
+git rebase main
+git clean -fd
+```

@@ -25,30 +25,26 @@
 
 ### Setup
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-git config --list
-```
+```git config --global user.name "Your Name"``` Set your username
+```git config --global user.eamail "you@example.com"``` Set your email
+```git config --list``` Show all configs
+
 
 ---
 
 ### Starting a Repository
 
-```bash
-git init                 # Initialize new repo
-git clone <repo-url>     # Clone existing repo
-```
+```git init``` Initialize new repo
+```git clone <repo-url>``` Clone existing repo
+
 
 ### Basic Workflow
 
-```bash
-git status               # Check status
-git add <file>           # Stage file
-git add .                # Stage all changes
-git commit -m "message"  # Commit
-git log
-```
+```git status``` Check status
+```git add <file>``` Add files to stage
+```git commit -m "message"``` commits
+```git log```
+
 
 ### Branching
 

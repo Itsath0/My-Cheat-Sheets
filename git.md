@@ -41,7 +41,7 @@
 ### Basic Workflow
 
 ```git status``` Check status <br/>
-```git add <file>``` Add files to stage <br/>
+```git add <file>``` Add files to staging area <br/>
 ```git commit -m "message"``` commits <br/>
 ```git log``` <br/>
 
@@ -62,8 +62,9 @@ git branch -d <name>
 
 ### Remote Repositories
 
-```bash
-git remote -v
+
+```git remote -v``` Shows the connected remote repo <br/>
+```
 git remote add origin <url>
 git push -u origin main
 git pull

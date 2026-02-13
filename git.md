@@ -25,9 +25,9 @@
 
 ### Setup
 
-```git config --global user.name "Your Name"``` Set your username ---
-```git config --global user.eamail "you@example.com"``` Set your email ---
-```git config --list``` Show all configs ---
+```git config --global user.name "Your Name"``` Set your username \n
+```git config --global user.eamail "you@example.com"``` Set your email \n
+```git config --list``` Show all configs \n
 
 
 ---

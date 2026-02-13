@@ -25,25 +25,25 @@
 
 ### Setup
 
-```git config --global user.name "Your Name"``` Set your username \n
-```git config --global user.eamail "you@example.com"``` Set your email \n
-```git config --list``` Show all configs \n
+```git config --global user.name "Your Name"``` Set your username <br/>
+```git config --global user.eamail "you@example.com"``` Set your email <br/>
+```git config --list``` Show all configs <br/>
 
 
 ---
 
 ### Starting a Repository
 
-```git init``` Initialize new repo
-```git clone <repo-url>``` Clone existing repo
+```git init``` Initialize new repo <br/>
+```git clone <repo-url>``` Clone existing repo <br/>
 
 
 ### Basic Workflow
 
-```git status``` Check status
-```git add <file>``` Add files to stage
-```git commit -m "message"``` commits
-```git log```
+```git status``` Check status <br/>
+```git add <file>``` Add files to stage <br/>
+```git commit -m "message"``` commits <br/>
+```git log``` <br/>
 
 
 ### Branching
